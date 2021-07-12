@@ -1,0 +1,15 @@
+The order to run the file are as follows:
+
+Open MySQL Command Line Client
+Log in and run the following 
+	source <path to bacchus.init.sql>
+	You may need to do two \\ instead of \ in your path
+
+Open bacchus_create.py and run it
+	Ensure that line 42 has the proper path to bacchus_table_create.sql
+	You may need to do two \\ instead of \ in your path
+
+Finally run bacchus_populate.py
+	Comment out the table population functions at the bottom after first run to avoid duplicating table data
+
+Uncomment and run the print table functions as needed
